@@ -1,0 +1,108 @@
+#background-image {
+    background-image: url("../assets/Background_Contacts.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-princinpal {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    margin: 50px auto 20px;
+    border: 3px solid var(--color-red);
+    border-radius: 50%;
+}
+
+.img-princinpal + p {
+    font-family: var(--font-family-asap);
+    font-size: 20px;
+    color: var(--color-gray-400);
+    margin-bottom: 15px;
+}
+
+span {
+    color: var(--color-red);
+}
+
+h1 {
+    font-family: var(--font-family-Inconsolata);
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--color-gray-600);
+}
+
+h1 + p {
+    color: var(--color-gray-400);
+    margin-bottom: 30px;
+    font-family: var(--font-family-Inconsolata);
+}
+
+.tecnologias {
+    display: flex;
+    justify-content: center;
+    margin: 60px 10px;
+
+    figure {
+       display: flex;
+       background-color: var(rgb(41, 44, 52));
+       align-items: center;
+       padding-inline: 10px;
+       padding-block: 2px;
+       text-align: center;
+       border-radius: 20px;
+       margin: 0 auto;
+       width: 110px;
+       flex-wrap: nowrap;
+       text-align: start;
+       justify-content: space-around;
+
+       .github {
+          background-color: black;
+          padding: 0px;
+          border-radius: 40%;
+       }
+
+       .html {
+          background-color: rgb(255, 166, 0);
+          padding: 0px;
+          border-radius: 40%;
+       }
+
+       .css {
+          background-color: blue;
+          padding: 0px;
+          border-radius: 40%;
+       }
+
+       .react {
+          background-color: rgb(32, 32, 199);
+          padding: 0px;
+          border-radius: 40%;
+       }
+
+       .nodejs {
+          background-color: green;
+          padding: 0px;
+          border-radius: 40%;
+       }
+
+       figcaption {
+          font-family: var(--font-family-MavenPro);
+          color: var(--color-gray-400);
+          text-transform: uppercase;
+       }
+
+    }
+}

@@ -1,0 +1,22 @@
+footer {
+    padding-block: 100px;
+    background-color: rgb(13, 14, 17);
+    text-align: center;
+}
+
+.container-footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.servicos {
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span + h2 {
+    padding-block: 10px;
+}
